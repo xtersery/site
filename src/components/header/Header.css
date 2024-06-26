@@ -1,0 +1,54 @@
+.header {
+    width: 70%;
+    padding-top: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    /* padding-left: 13rem; */
+    height: 4.5rem;
+}
+
+.header-menu {
+    list-style: none;
+    gap: 3rem;
+    color: black;
+    font-size: 1rem;
+    border-radius: 5px;
+    width: fit-content;
+    border-color: white;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    text-transform: uppercase;
+}
+
+.header-menu>li:hover {
+    cursor: pointer;
+    color: var(--green);
+    cursor: pointer;
+}
+
+.login {
+    font-size: large;
+}
+
+.log_in {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 0.7rem;
+    /* padding-right: 13rem; */
+}
+
+.log_in>:nth-child(1) {
+    color: black;
+}
+
+.log_in>.login-text {
+    font-size: 1rem;
+}

@@ -1,0 +1,10 @@
+.fd-box {
+    background-color: rgba(130, 130, 130, 0.3);
+    min-height: 500px;
+    border-radius: 150px 150px 0 0;
+    margin-top: 9rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
