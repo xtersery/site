@@ -1,0 +1,203 @@
+.offers {
+    width: 70%;
+    height: auto;
+    padding-top: 10rem;
+    /* border: 1px solid #000; */
+    margin: auto;
+
+    /* margin-top: -50px; */
+}
+
+.offers .h1-box h1,
+.container .text-center h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.offers .h1-box {
+    background-color: rgba(119, 217, 0, 0.5);
+    padding: 2em;
+    border-radius: 0 0 50px 50px;
+    background: url('./../../assets/material1.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.offers p,
+.container .text-center h2 {
+    font-size: 1.4rem;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 2rem;
+    margin-top: 0.5rem;
+}
+
+.offers .cards,
+.container .row {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* border: 1px solid #000; */
+}
+
+.offers .cards .card {
+    position: relative;
+    width: 200px;
+    height: 350px;
+    /* border: 1px solid #000; */
+    margin: 10px;
+}
+
+.offers .cards .card h3{
+    width: 140px;
+    padding: 6px 0px;
+    background: rgb(165, 243, 165);
+    border-radius: 20px;
+    font-size: 12px;
+    display: grid;
+    place-items: center;
+    margin: auto;
+
+}
+
+.offers .cards .card .img_text {
+    position: relative;
+    width: 100%;
+    height: 250px;
+    margin-top: 5px;
+}
+
+.offers .cards .card .img_text img {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.offers .cards .card .img_text h4 {
+    position: absolute;
+    font-size: 9px;
+    padding: 10px 15px;
+    bottom: 0;
+    margin: 0;
+    color: #fff;
+    z-index: 2;
+}
+
+.offers .cards .card .img_text h4::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgb(39, 39, 39, .1);
+    backdrop-filter: blur(5px);
+    z-index: -1;
+    bottom: 0;
+    left: 0;
+}
+
+.offers .cards .card .cont_bx {
+    width: 99%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid rgb(190, 190, 190);
+    padding: 5px 0px;
+    border-radius: 0px 0px 5px 5px;
+}
+
+.offers .cards .card .cont_bx .price, .days{
+    margin: 0px 8px;
+}
+
+.offers .cards .card .cont_bx .price .info-price{
+    display: flex;
+    align-items: center;
+    margin-top: 3px;
+}
+
+.offers .cards .card .cont_bx .price .info-price a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 700;
+    font-size: 11px;
+    transition: .3s linear;
+    margin-right: 13px;
+}
+
+.offers .cards .card .cont_bx .price .info-price a:hover{
+    color: gray;
+}
+
+.offers .cards .card .cont_bx .price .info-price h4{
+    margin: 0;
+    font-size: 13px;
+}
+
+
+.offers .cards .card .cont_bx .days{
+    color: #ffffff;
+    background: #000;
+    font-size: 8px;
+    border-radius: 50%;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    transition: .3s linear;
+}
+
+.offers .cards .card .cont_bx .days:hover{
+    transform: rotate(360deg);
+}
+
+.card_bx {
+    padding-top: 10rem;
+    margin-top: 0;
+    position: relative;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border-radius: 20px;
+}
+
+.container {
+    padding-top: 11rem;
+
+}
+
+.service-item {
+    position: relative;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: calc(25% - 50px);
+    height: 250px;
+    /* background: rgba(166, 244, 166, 0.3) */
+    /* border: 1px solid gray; */
+}
+
+.service-item img {
+    width: 100px;
+    height: auto;
+}
+
+.service-item p {
+    text-align: center;
+}
+
+.service-item h3 {
+    font-weight: 500;
+    font-size: 1.4rem;
+    text-align: center;
+    margin: 0;
+}

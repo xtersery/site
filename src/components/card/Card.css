@@ -1,0 +1,108 @@
+.card {
+  position: relative;
+  width: 250px;
+  height: 350px;
+  /* border: 1px solid #000; */
+  margin: 10px;
+}
+
+.card h3{
+  width: 140px;
+  padding: 6px 0px;
+  background: rgb(165, 243, 165);
+  border-radius: 20px;
+  font-size: 12px;
+  display: grid;
+  place-items: center;
+  margin: auto;
+
+}
+
+.card .img_text {
+  position: relative;
+  width: 100%;
+  height: 250px;
+  margin-top: 5px;
+}
+
+.card .img_text img {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.card .img_text h4 {
+  position: absolute;
+  font-size: 9px;
+  padding: 10px 15px;
+  bottom: 0;
+  margin: 0;
+  color: #fff;
+  z-index: 2;
+}
+
+.card .img_text h4::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgb(39, 39, 39, .1);
+  backdrop-filter: blur(5px);
+  z-index: -1;
+  bottom: 0;
+  left: 0;
+}
+
+.card .cont_bx {
+  width: 99%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid rgb(190, 190, 190);
+  padding: 5px 0px;
+  border-radius: 0px 0px 5px 5px;
+}
+
+.card .cont_bx .price, .days{
+  margin: 0px 8px;
+}
+
+.card .cont_bx .price .info-price{
+  display: flex;
+  align-items: center;
+  margin-top: 3px;
+}
+
+.card .cont_bx .price .info-price a{
+  text-decoration: none;
+  color: #000;
+  font-weight: 700;
+  font-size: 11px;
+  transition: .3s linear;
+  margin-right: 13px;
+}
+
+.card .cont_bx .price .info-price a:hover{
+  color: gray;
+}
+
+.card .cont_bx .price .info-price h4{
+  margin: 0;
+  font-size: 13px;
+}
+
+.card .cont_bx .days{
+  color: #ffffff;
+  background: #000;
+  font-size: 8px;
+  border-radius: 50%;
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+  transition: .3s linear;
+}
+
+.card .cont_bx .days:hover{
+  transform: rotate(360deg);
+}

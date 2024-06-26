@@ -1,0 +1,70 @@
+.ts-container {
+    display: flex;
+    padding-top: 11rem;
+    flex-direction: column;
+    margin: auto;
+    width: 60%;
+}
+
+
+.ts-container h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+    margin: 1;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    height: 60px;
+}
+
+.ts-slider {
+    padding-top: 1rem;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ts-container .navbar {
+    gap: 0.5rem;
+}
+
+.ts-container .navbar> button{
+    width: 120px;
+}
+
+.btn.ts-btn {
+    background: rgba(174, 174, 174, 0.5);
+    color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 0.3rem;
+}
+
+.btn.add-ts {
+    color: black;
+    margin-left: auto;
+    width: 200px;
+    background: rgba(227, 226, 226, 0.5);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(130, 130, 130, 0.5);
+    border-top: 1px solid rgba(131, 131, 131, 0.75);
+    border-left: 1px solid rgba(118, 118, 118, 0.75);
+    border-radius: 10px;
+    box-shadow: 0 25px 45px rgba(0, 0, 0, 0.05);
+}
+
+.btn.ts-btn img{
+    width: 45%;
+}
+
+.card-bx {
+    scale: 1.3;
+}

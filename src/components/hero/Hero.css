@@ -1,0 +1,51 @@
+.hero {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    background: url(./../../assets/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0 0 150px 150px;
+    min-height: 800px;
+}
+
+.hero-mask {
+    background: url(./../../assets/mask.svg) no-repeat;
+    background-size: contain;
+    z-index: 2;
+}
+
+.hero-main-text>div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-main-text>div>:nth-child(1) {
+    position: absolute;
+    top: 300px;
+    scale: 0.65;
+    z-index: 1;
+}
+
+.hero-main-text>div>:nth-child(2) {
+    text-transform: uppercase;
+    padding-top: 5%;
+    position: absolute;
+    letter-spacing: 2px;
+    font-size: 2rem;
+    z-index: 3;
+}
+
+.hero-mask>.widget-container {
+    padding: 0 10px;
+    height: auto;
+    align-items: center;
+}
+
+.hero-mask * {
+    /* box-sizing: border-box;
+     */
+    align-items: center;
+}
