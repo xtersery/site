@@ -201,3 +201,9 @@
     text-align: center;
     margin: 0;
 }
+
+.end {
+    background: url('./../../assets/material1.svg');
+    background-size: cover;
+    height: 17rem;
+}

@@ -58,6 +58,7 @@ const Body: React.FC = (e) => {
         <Programs />
         <Testimonials />
         <Feedback />
+        <div className='end'></div>
 
     </Content>);
 }
