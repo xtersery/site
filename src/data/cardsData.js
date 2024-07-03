@@ -95,6 +95,7 @@ const cards = [
 
 const bestCards = [
     {
+        id: 1,
         title: 'Lotus-Dehli',
         img: lotus,
         text: `Included: Air ticket, Hotel, Breakfast, Tours, Airport Transfer.`,
@@ -103,6 +104,7 @@ const bestCards = [
         duration: '5 Days'
     },
     {
+        id: 2,
         title: 'Burj Khalifa-DXB',
         img: tower,
         text: `Included: Air ticket, Hotel, Breakfast, Tours, Airport Transfer.`,
@@ -111,6 +113,7 @@ const bestCards = [
         duration: '5 Days'
     },
     {
+        id: 3,
         title: 'Piramids-Egypt',
         img: piramids,
         text: `Included: Air ticket, Hotel, Breakfast, Tours, Airport Transfer.`,
@@ -119,6 +122,7 @@ const bestCards = [
         duration: '7 Days'
     },
     {
+        id: 4,
         title: 'Mountain-Vietnam',
         img: mountain,
         text: `Included: Air ticket, Hotel, Breakfast, Tours, Airport Transfer.`,

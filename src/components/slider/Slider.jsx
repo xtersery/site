@@ -14,6 +14,6 @@ export default function SimpleSlider() {
     };
 
     return (<Slider {...settings}>
-        {bestCards.map((card)=> <div><Card props={card}/></div>)}
+        {bestCards.map((card)=> <div><Card props={card} key={card.id}/></div>)}
     </Slider>);
 }
