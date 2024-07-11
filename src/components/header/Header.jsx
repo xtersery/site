@@ -44,10 +44,10 @@ const Header = () => {
             <li>О нас</li>
         </ul>
 
-        <div className='log_in' id='log_in'>
+        {/* <div className='log_in' id='log_in'>
           <img src={person} alt='person'></img>
           <span className='login-text'><button onClick={logIn}>ВОЙТИ</button></span>
-        </div>
+        </div> */}
     </div>
 
   )

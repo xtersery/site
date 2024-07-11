@@ -3,9 +3,8 @@ import './TSCard.css'
 import VanillaTilt from 'vanilla-tilt';
 import person from './../../../assets/person.svg';
 
-const TSCard =  () => {
+const TSCard = ({name, rating, text}) => {
     const tiltRef = useRef();
-
     useEffect(() => {
         const node = tiltRef.current;
         if (node) {
@@ -31,10 +30,10 @@ const TSCard =  () => {
                 <img src={person} alt="" />
             </div>
             <div className="elements name">
-                <h2>Рандомный человек</h2>
+                <h2>{name}</h2>
             </div>
             <div className="elements content">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde rerum quaerat amet optio eligendi tempore nesciunt a accusamus numquam. Explicabo.</p>
+                <p>{text}</p>
             </div>
             <div className="card"></div>
         </div>

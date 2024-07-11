@@ -13,9 +13,7 @@ const Testimonials = () => {
             <button className='btn add-ts'>Оставить отзыв</button>
         </div>
         <div className="ts-slider">
-            <TSCard />
-            <TSCard />
-            <TSCard />
+            <TSCard name="" text=""/>
         </div>
     </div>);
 }
