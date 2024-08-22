@@ -2,10 +2,6 @@ import React, { useState } from 'react'
 import { Layout, Row, Col, Typography } from 'antd'
 import './Content.css'
 import SimpleCarousel from './SimpleCarousel.jsx'
-import earth from './../../assets/earth.svg'
-import hotel from './../../assets/hotel.svg'
-import settings from './../../assets/settings.svg'
-import guide from './../../assets/person-line.svg'
 
 
 import Search from '../search/Search.jsx';
@@ -41,7 +37,7 @@ const Body: React.FC = (e) => {
 
         <Search callFunction={handleShowCards}/>
         <div className="card_bx">
-            {showCards.length > 0 && showCards.map((card, i) => <Card props={card}/>)}
+            {showCards.length > 0 && showCards.map((card, i) => <Card props={card} key={i}/>)}
         </div>
 
 

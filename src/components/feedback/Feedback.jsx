@@ -72,22 +72,22 @@ const Feedback = () => {
         <h1 className="stroke-text">Остались вопросы?</h1>
         <div className="borderline"></div>
         <div className="text-field">
-          <label>Имя</label>
-          <input type="text" className="name" value={value} onChange={changeName}></input>
+          <label id='1'>Имя</label>
+          <input  id='1' type="text" className="name" value={value} onChange={changeName}></input>
         </div>
         <div className="text-field">
-          <label>Email</label>
-          <input type="text" className="email" value={email} onChange={changeEmail}></input>
+          <label id='2'>Email</label>
+          <input id='2' type="text" className="email" value={email} onChange={changeEmail}></input>
         </div>
         <div className="text-field">
-          <label>Тема</label>
-          <input type="text" className="topic" value={topic} onChange={changeTopic}></input>
+          <label id='3'>Тема</label>
+          <input id='3' type="text" className="topic" value={topic} onChange={changeTopic}></input>
         </div>
         <div className="text-field">
-          <label>Сообщение</label>
-          <textarea type="text" className="msg" value={msg} onChange={changeMsg}></textarea>
+          <label id='4'>Сообщение</label>
+          <textarea id='4' type="text" className="msg" value={msg} onChange={changeMsg}></textarea>
         </div>
-        <div class="button">
+        <div className="button">
           <button type="submit" onClick={handleSubmit}>Отправить</button>
         </div>
       </div>

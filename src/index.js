@@ -11,6 +11,11 @@ import './styles/reset.css';
 import './styles/common.css';
 import Tours from './components/tours/Tours.jsx';
 
+const error = console.error;
+console.error = (...args) => {
+  if (/defaultProps/.test(args[0])) return;
+  error(...args);
+};
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
