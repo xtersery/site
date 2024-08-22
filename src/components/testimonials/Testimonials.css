@@ -34,11 +34,8 @@
     gap: 0.5rem;
 }
 
-.ts-container .navbar> button{
-    width: 120px;
-}
-
 .btn.ts-btn {
+    width: 120px;
     background: rgba(174, 174, 174, 0.5);
     color: black;
     display: flex;
@@ -49,6 +46,7 @@
 }
 
 .btn.add-ts {
+    width: 120px;
     color: black;
     margin-left: auto;
     width: 200px;

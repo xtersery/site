@@ -1,7 +1,39 @@
 .footer-box {
-    background-color: rgb(176, 176, 176);
-    min-height: 200px;
+    background-color: rgba(15, 230, 36, 0.3);
+    /* background-color: rgb(236, 236, 236); */
+    min-height: 150px;
     border-radius: 150px 150px 0 0;
-    margin-top: -27rem;
+    margin-top: -26rem;
     position: relative;
+    border: 1px solid rgb(190, 190, 190);
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-box .contacts,
+.footer-box .emails {
+    margin-top: 20px;
+}
+
+.footer-box .contacts .address,
+.footer-box .contacts .phone,
+.footer-box .emails .email {
+    display: flex;
+    line-height: 2rem;
+    gap: 0.5rem;
+}
+
+.footer-box .contacts .borderline,
+.footer-box .emails .borderline {
+    height: 3px;
+    width: 120px;
+    background-image: linear-gradient(217deg, rgb(7, 237, 118), rgb(52, 151, 52));
+    margin-bottom: 20px;
+}
+
+
+.footer-box .contacts h3,
+.footer-box .emails h3 {
+    font-weight: 400;
+    font-size: 1.5rem;
 }

@@ -14,16 +14,17 @@
 
 .header-menu {
     list-style: none;
-    gap: 3rem;
+    flex: 1;
+    /* gap: 3rem; */
     color: black;
     font-size: 1rem;
     border-radius: 5px;
-    width: fit-content;
+    /* width: fit-content; */
     border-color: white;
-    position: relative;
+    /* position: relative; */
     display: flex;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: space-around;
     text-transform: uppercase;
 }
 
